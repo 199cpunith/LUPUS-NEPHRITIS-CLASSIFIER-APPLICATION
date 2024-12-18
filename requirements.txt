@@ -4,9 +4,6 @@ pip install streamlit
 pip install --upgrade pip
 # Running
 streamlit run C:/Users/rpuni/OneDrive/Documents/STREAMLIT/main.py
-import streamlit as st
-import tensorflow as tf
-import numpy as np
 streamlit>=1.0
 numpy>=1.21.0
 pandas>=1.3.0
@@ -14,9 +11,11 @@ scikit-learn>=0.24.2
 tensorflow>=2.5.0
 matplotlib>=3.4.0
 seaborn>=0.11.0
+matplotlib
+numpy
+notebook
+tensorflow-addons
+tensorflow-model-optimization
+tensorflow==2.5
 
 
-import tensorflow as tf
-from tensorflow.keras import models,layers
-import matplotlib.pyplot as plt
-import numpy as np
