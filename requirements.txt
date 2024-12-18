@@ -2,9 +2,10 @@ streamlit>=1.20.0
 numpy
 pandas
 tensorflow
-# Add any other dependencies here
+# Add any additional dependencies here
+pip install -r requirements.txt
 git add requirements.txt
-git commit -m "Fix requirements.txt"
+git commit -m "Fix invalid entries in requirements.txt"
 git push origin main
 pip install --upgrade pip
 
