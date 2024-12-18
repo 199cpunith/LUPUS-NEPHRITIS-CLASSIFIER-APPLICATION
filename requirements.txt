@@ -1,3 +1,9 @@
+#installation
+pip install streamlit
+#update
+pip install --upgrade pip
+# Running
+streamlit run C:/Users/rpuni/OneDrive/Documents/STREAMLIT/main.py
 import streamlit as st
 import tensorflow as tf
 import numpy as np
