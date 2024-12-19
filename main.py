@@ -19,7 +19,7 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Informati
 #Main Page
 if(app_mode=="Home"):
     st.header("LUPUS NEPHRITIS STAGE DETECTION")
-    image_path = "C:/Users/rpuni/OneDrive/Documents/STREAMLIT/lupus nephritis wallpaper.jpg"
+    image_path = "lupus nephritis wallpaper.jpg"
     st.image(image_path,use_column_width=True)
     st.markdown("""
     Welcome to the Lupus Nephritis Disease Recognition System! 🔍
